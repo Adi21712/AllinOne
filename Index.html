@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online file converter - Convert PDF to Word, Word to PDF, Images to PDF, and compress images with our browser-based tools. No file size limits, no watermarks, 100% free.">
+    
+    <!-- SEO Meta Tags -->
+    <title>FileMagic | Free Online File Converter</title>
+    <link rel="canonical" href="https://yourusername.github.io/file-converter/" />
+    <meta name="keywords" content="PDF to Word, Word to PDF, Image to PDF, Image Compressor, free file converter">
+    
+    <!-- Open Graph / Twitter Cards -->
+    <meta property="og:title" content="FileMagic | Free Online File Converter">
+    <meta property="og:description" content="Convert files between formats instantly in your browser. No uploads, no watermarks, 100% free.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/file-converter/">
+    <meta property="og:image" content="https://yourusername.github.io/file-converter/assets/images/social-preview.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon">
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="assets/css/main.css" as="style">
+    <link rel="preload" href="assets/js/main.js" as="script">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "FileMagic Converter",
+        "description": "Free online file conversion tools that work entirely in your browser",
+        "url": "https://yourusername.github.io/file-converter/",
+        "applicationCategory": "DocumentConverter",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Header with AdSense Banner -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24">
+                    <path d="M12 2L4 7v10l8 5 8-5V7L12 2zm0 2.5L18 9v6l-6 3.5-6-3.5V9l6-4.5z"/>
+                </svg>
+                <h1>FileMagic</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#privacy">Privacy</a></li>
+                </ul>
+            </nav>
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <svg class="icon" viewBox="0 0 24 24">
+                    <path class="sun" d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2v-2H2v2zm18 0h2v-2h-2v2zM11 2v2h2V2h-2zm0 18v2h2v-2h-2z"/>
+                    <path class="moon" d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1-8.313-12.454z" style="display:none;"/>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Google AdSense Header Banner -->
+        <div class="ad-container ad-header">
+            <div class="ad-placeholder" data-ad-unit="HEADER_BANNER">
+                <!-- AdSense code will be injected here -->
+                <p>Advertisement</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2>Convert & Compress Files in Your Browser</h2>
+                <p>100% free, no file size limits, no watermarks. Your files never leave your device.</p>
+            </div>
+        </section>
+
+        <section id="tools" class="tools-section">
+            <div class="container">
+                <h2 class="section-title">Our Tools</h2>
+                
+                <div class="tools-grid">
+                    <!-- PDF to Word Tool -->
+                    <div class="tool-card" id="pdf-to-word">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+                                <path d="M14 2v6h6M12 18v-6m-3 3h6"/>
+                            </svg>
+                        </div>
+                        <h3>PDF to Word</h3>
+                        <p>Convert PDF documents to editable Word files</p>
+                        <button class="btn tool-btn" data-tool="pdf-to-word">Convert Now</button>
+                    </div>
+                    
+                    <!-- Word to PDF Tool -->
+                    <div class="tool-card" id="word-to-pdf">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+                                <path d="M14 2v6h6M12 12v4m-2-2h4"/>
+                            </svg>
+                        </div>
+                        <h3>Word to PDF</h3>
+                        <p>Convert Word documents to PDF format</p>
+                        <button class="btn tool-btn" data-tool="word-to-pdf">Convert Now</button>
+                    </div>
+                    
+                    <!-- Image to PDF Tool -->
+                    <div class="tool-card" id="image-to-pdf">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <circle cx="8.5" cy="8.5" r="1.5"/>
+                                <path d="M21 15l-3.5-3.5L12 18l-2-2-5 5"/>
+                            </svg>
+                        </div>
+                        <h3>Image to PDF</h3>
+                        <p>Convert images to PDF documents</p>
+                        <button class="btn tool-btn" data-tool="image-to-pdf">Convert Now</button>
+                    </div>
+                    
+                    <!-- Image Compressor Tool -->
+                    <div class="tool-card" id="image-compressor">
+                        <div class="tool-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+                                <circle cx="10.5" cy="13.5" r="2.5"/>
+                                <path d="M15 12l-5 5"/>
+                            </svg>
+                        </div>
+                        <h3>Image Compressor</h3>
+                        <p>Reduce image file size without losing quality</p>
+                        <button class="btn tool-btn" data-tool="image-compressor">Compress Now</button>
+                    </div>
+                </div>
+                
+                <!-- Google AdSense Inline Rectangle -->
+                <div class="ad-container ad-inline">
+                    <div class="ad-placeholder" data-ad-unit="INLINE_RECTANGLE">
+                        <!-- AdSense code will be injected here -->
+                        <p>Advertisement</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tool Modals -->
+        <div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+            <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+                <h2 id="modal-title">Convert Files</h2>
+                
+                <div class="dropzone" id="dropzone">
+                    <svg class="dropzone-icon" viewBox="0 0 24 24">
+                        <path d="M19 13a1 1 0 0 0-1 1v.38l-1.48-1.48a2.79 2.79 0 0 0-3.93 0l-.7.7-2.48-2.48a2.85 2.85 0 0 0-3.93 0L4 12.6V7a1 1 0 0 1 1-1h7a1 1 0 1 0 0-2H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-5a1 1 0 0 0-1-1zM5 20a1 1 0 0 1-1-1v-3.57l2.9-2.9a.79.79 0 0 1 1.09 0l3.17 3.17 4.3 4.3zm13-1a.9.9 0 0 1-.18.53L13.31 15l.7-.7a.77.77 0 0 1 1.1 0L18 17.22zm4-12a1 1 0 0 1-2 0V7h-1a1 1 0 0 1 0-2h1V4a1 1 0 0 1 2 0z"/>
+                    </svg>
+                    <p>Drag & drop files here or click to browse</p>
+                    <input type="file" id="file-input" class="file-input" multiple>
+                    <button class="btn btn-secondary">Select Files</button>
+                </div>
+                
+                <div class="file-list" id="file-list">
+                    <!-- Files will be listed here -->
+                </div>
+                
+                <div class="progress-container" id="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <span class="progress-text" id="progress-text">0%</span>
+                </div>
+                
+                <div class="tool-options" id="tool-options">
+                    <!-- Tool-specific options will appear here -->
+                </div>
+                
+                <div class="modal-footer">
+                    <button class="btn btn-primary" id="convert-btn" disabled>Convert</button>
+                    <button class="btn btn-secondary" id="cancel-btn">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About FileMagic</h2>
+                <p>FileMagic is a free online tool that lets you convert and compress files directly in your browser. Unlike other services, we don't upload your files to any server - all processing happens locally on your device for maximum privacy and security.</p>
+                <p>Our tools are 100% free to use with no watermarks, no file size limits, and no registration required.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; <span id="year"></span> FileMagic. All rights reserved.</p>
+            </div>
+        </div>
+        
+        <!-- Google AdSense Sticky Footer -->
+        <div class="ad-container ad-footer">
+            <div class="ad-placeholder" data-ad-unit="STICKY_FOOTER">
+                <!-- AdSense code will be injected here -->
+                <p>Advertisement</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="module" src="assets/js/main.js"></script>
+    
+    <!-- Load non-critical scripts after page load -->
+    <script defer src="assets/js/theme.js"></script>
+    <script defer src="assets/js/analytics.js"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful');
+                    })
+                    .catch(err => {
+                        console.log('ServiceWorker registration failed: ', err);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
